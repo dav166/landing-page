@@ -1,0 +1,6 @@
+/* Reset styles for consistency across browsers */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
