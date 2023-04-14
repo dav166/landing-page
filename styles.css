@@ -15,7 +15,7 @@
 
   header {
     background-color: #1F2937;
-    padding: 1rem;
+    padding: 1.5rem;
     color: white;
     text-align: center;
     display: flex;
@@ -57,18 +57,45 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding: 2rem;
+  }
+/* --------------------- */
+  #hero .container {
+    padding: 1rem;
   }
 
-  container h1 {
+  #hero h1 {
     font-size: 48px;
+    font-weight: bolder;
     color: #F9FAF8;
   }
 
-  container p {
+  #hero p {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 1rem;
   }
 
-  button {
-    color: #3882F6;
+  #hero .button {
+    background-color: #3882F6;
+    color: #fff;
+    font-size: 18px;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-weight: bold;
   }
+
+  #hero .button:hover {
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+  }
+
+  #hero img {
+    position: relative;
+  }
+
