@@ -20,7 +20,7 @@
     text-align: center;
     display: flex;
     align-items: baseline;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 20px;
   }
 
@@ -99,3 +99,15 @@
     position: relative;
   }
 
+  #info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #info h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+  }
