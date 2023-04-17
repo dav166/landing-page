@@ -164,3 +164,8 @@ cite {
   margin-right: 15px;
   font-size: 22px;
 }
+
+#cta {
+  height: auto;
+  padding: 6% 25% 7%;
+}
