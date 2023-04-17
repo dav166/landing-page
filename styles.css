@@ -7,7 +7,7 @@
 
   /* Set up basic styles for the page */
 body {
-  font-family: 'roboto', Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #333;
@@ -15,12 +15,11 @@ body {
 
 header {
   background-color: #1F2937;
-  padding: 1.5rem;
+  padding: 1rem 12%;
   color: white;
   text-align: center;
   display: flex;
   align-items: baseline;
-  flex-wrap: nowrap;
   gap: 20px;
 }
 
