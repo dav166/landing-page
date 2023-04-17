@@ -14,7 +14,7 @@ body {
 
 header {
   background-color: #1F2937;
-  padding: 4% 12%;
+  padding: 4% 12% 0;
   color: white;
   text-align: center;
   display: flex;
@@ -142,4 +142,25 @@ header ul li a {
   border-radius: 10%;
   width: 200px;
   height: 200px;
+}
+
+#quotes {
+  height: auto;
+  padding: 6% 16% 5% 16%;
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+blockquote {
+  font-size: 30px;
+  font-style: italic;
+}
+
+cite {
+  margin-left: auto;
+  font-weight: bold;
+  margin-right: 15px;
+  font-size: 22px;
 }
