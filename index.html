@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Landing Page</title>
+
 </head>
 <body>
     <header>
         <a href="#">Dav</a>
-        <ul class="header-links">
+        <ul>
             <li><a href="#hero">Home</a></li>
             <li><a href="#info">Info</a></li>
-            <li><a href="#quotes">Contact</a> <li>
-        </ul>    
+            <li><a href="#quotes">Contact</a><li>
+        </ul>  
     </header>
     <main>
         <section id="hero">
-            <container class="container">
+            <div class="hero-text">
                 <h1>This is hero text</h1>
                 <p>This is sub-hero text.</p>
-                <a href="#" class="button">This is a button.</a> <!-- revisit to add meaningful text -->
-            </container>    
-            <img src="" alt="Hero Photo!">
-                <!-- image still needed -->
+                <button><a href="#">Click Me!</a></button> 
+            </div>  
+            <div class="hero-img">
+                <img src="" alt="Hero Photo!">
+            </div>  
         </section>
+
         <section id="info">
             <h2>I will put some info below!</h2>
             <div class="info-card">
@@ -45,18 +49,25 @@
                 <p>These words go under photo 4!</p>
             </div>
         </section>
+
         <section id="quotes">
-            <blockquote>"This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice."</blockquote>
-            <cite>- Dav, the developer</cite>
+            <blockquote>
+                "This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice."
+            </blockquote>
+            <cite>
+                - Dav, the developer
+            </cite>
         </section>
+
         <section id="cta">
             <h2>Want to see more?</h2>
                 <p>Reach out by clicking that button over there!</p>
             <a href="#" class="cta-button">Get in touch</a>
         </section>
     </main>
-    <footer>
-        <p>Copyright &COPY; David Spaulding 2023</p>
-    </footer>
 </body>
+<footer>
+    <p>Copyright &COPY; David Spaulding 2023</p>
+</footer>
+
 </html>
