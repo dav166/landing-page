@@ -113,14 +113,15 @@ header ul li a {
 }
 
 #info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  height: auto;
+  padding: 4% 12% 0 12%;
 }
 
 #info h2 {
   font-size: 36px;
   font-weight: bolder;
   color: #1F2937;
+  padding-bottom: 4%;
+  text-align: center;
 }
+
