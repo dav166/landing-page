@@ -59,7 +59,13 @@ header ul li a {
 }
 
 #hero .hero-text {
-  padding: 1rem;
+  display: flex;
+  flex: 1;
+  min-height: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 #hero h1 {
