@@ -52,10 +52,13 @@ header ul li a {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding: 2rem;
+  padding: 7% 12%;
+  width: auto;
+  height: auto;
+  gap: 20px;
 }
-/* --------------------- */
-#hero .container {
+
+#hero .hero-text {
   padding: 1rem;
 }
 
