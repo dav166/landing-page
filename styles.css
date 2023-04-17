@@ -125,3 +125,9 @@ header ul li a {
   text-align: center;
 }
 
+.info-deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 10%;
+}
