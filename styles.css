@@ -131,3 +131,15 @@ header ul li a {
   justify-content: space-evenly;
   padding-bottom: 10%;
 }
+
+.info-text {
+  max-width: 200px;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.info-card img {
+  border-radius: 10%;
+  width: 200px;
+  height: 200px;
+}
