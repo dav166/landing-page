@@ -56,6 +56,7 @@ header ul li a {
   width: auto;
   height: auto;
   gap: 20px;
+  color: #F9FAF8;
 }
 
 #hero .hero-text {
@@ -65,22 +66,24 @@ header ul li a {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 10px;
+  gap: 15px;
 }
 
-#hero h1 {
+#hero .hero-text h1 {
   font-size: 48px;
-  font-weight: bolder;
-  color: #F9FAF8;
 }
 
-#hero p {
+#hero .hero-text p {
   font-size: 18px;
   color: #E5E7EB;
-  margin-bottom: 1rem;
 }
 
-#hero .button {
+#hero .hero-text button {
+  border-radius: 4px;
+  border: none;
+}
+
+#hero .hero-text button a {
   background-color: #3882F6;
   color: #fff;
   font-size: 18px;
@@ -91,12 +94,12 @@ header ul li a {
   transition: all 0.3s ease;
   text-decoration: none;
   font-weight: bold;
+  display: flex;
 }
 
-#hero .button:hover {
+#hero .hero-text button a:hover {
   background-color: #fff;
   color: #333;
-  text-decoration: none;
 }
 
 #hero img {
