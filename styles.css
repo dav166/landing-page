@@ -167,7 +167,7 @@ cite {
 
 #cta {
   height: auto;
-  padding: 6% 25% 7%;
+  padding: 6% 12% 7%;
 }
 
 .cta-box {
@@ -175,26 +175,31 @@ cite {
   border: 2px solid rgb(74, 51, 204);
   border-radius: 15px;
   padding: 30px;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items:center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.cta-box div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-  gap: 10px;
-  color: white;
-  
 }
-
 .cta-box h2 {
   font-size: 36px;
   font-weight: bold;
-  padding-bottom: 3px;
 }
 
 .cta-box p {
   font-size: 24px;
 }
 
-.my-button {
+.cta-box a {
+  margin-left: auto;
+}
+
+.cta-button {
   background-color: #3882F6;
   color: #fff;
   font-size: 18px;
@@ -207,7 +212,7 @@ cite {
   transition: all 0.3s ease;
 }
 
-.my-button:hover {
+.cta-button:hover {
   background-color: #fff;
   color: #333;
 }
