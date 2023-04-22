@@ -103,13 +103,8 @@ header ul li a {
   height: auto;
 }
 
-.hero-img img {
-  height: 100%;
-  width: 100%;
-}
-
 @media screen and (max-width: 1500px) {
-  .hero-img img {display: none;}
+  .hero-img {display: none;}
 }
 
 #info {
