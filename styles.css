@@ -59,7 +59,7 @@ header ul li a {
   color: #F9FAF8;
 }
 
-#hero .hero-text {
+.hero-left {
   display: flex;
   flex: 1;
   min-height: 100%;
@@ -69,16 +69,16 @@ header ul li a {
   gap: 15px;
 }
 
-#hero .hero-text h1 {
+.hero-title {
   font-size: 48px;
 }
 
-#hero .hero-text p {
+.hero-text {
   font-size: 18px;
   color: #E5E7EB;
 }
 
-#hero .hero-text a {
+.hero-left a {
   background-color: #3882F6;
   color: #fff;
   font-size: 18px;
@@ -92,7 +92,7 @@ header ul li a {
   transition: all 0.3s ease;
 }
 
-#hero .hero-text a:hover {
+.hero-left a:hover {
   background-color: #fff;
   color: #333;
 }
