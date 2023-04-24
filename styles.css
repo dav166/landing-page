@@ -78,7 +78,7 @@ header ul li a {
   color: #E5E7EB;
 }
 
-.hero-left a {
+.hero-button {
   background-color: #3882F6;
   color: #fff;
   font-size: 18px;
@@ -92,7 +92,7 @@ header ul li a {
   transition: all 0.3s ease;
 }
 
-.hero-left a:hover {
+.hero-button:hover {
   background-color: #fff;
   color: #333;
 }
