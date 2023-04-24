@@ -23,7 +23,6 @@ header {
 
 .header-logo {
   font-size: 24px;
-  font-weight: bold;
 }
 
 ul {
@@ -44,11 +43,9 @@ a {
   background-color: #1F2937;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 7% 12%;
-  width: auto;
-  height: auto;
-  gap: 20px;
+  gap: 30px;
   color: #F9FAF8;
 }
 
@@ -64,6 +61,7 @@ a {
 
 .hero-title {
   font-size: 48px;
+  font-weight: extra-bold;
 }
 
 .hero-text {
@@ -93,7 +91,7 @@ a {
 .hero-img {
   flex: 1;
   width: auto;
-  height: auto;
+  max-height: 200px;
 }
 
 @media screen and (max-width: 1500px) {
