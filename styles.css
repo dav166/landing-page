@@ -111,20 +111,20 @@ a {
   text-align: center;
 }
 
-.info-deck {
+.info-boxes {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding-bottom: 10%;
 }
 
-.info-card p {
+.info-box p {
   max-width: 200px;
   text-align: center;
   padding-top: 10%;
 }
 
-.info-card img {
+.info-box img {
   border-radius: 10%;
   width: 200px;
   height: 200px;
