@@ -164,11 +164,11 @@ cite {
 .cta-box {
   background-color: #3882f6;
   border: 2px solid rgb(74, 51, 204);
-  border-radius: 15px;
+  border-radius: 5px;
   padding: 30px;
   color: white;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items:center;
   flex-wrap: wrap;
   gap: 8px;
@@ -196,7 +196,7 @@ cite {
   font-size: 18px;
   padding: 6px 9px;
   border-radius: 4px;
-  border: 1px solid white;
+  border: 2px solid white;
   outline: none;
   cursor: pointer;
   font-weight: bold;
@@ -206,4 +206,11 @@ cite {
 .cta-button:hover {
   background-color: #fff;
   color: #333;
+}
+
+footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  text-align: center;
+  padding: 2% 12%;
 }
