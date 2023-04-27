@@ -114,20 +114,25 @@ a {
 .info-boxes {
   display: flex;
   flex-wrap: wrap;
+  font-size: 18px;
   justify-content: space-evenly;
   padding-bottom: 10%;
 }
 
+.info-box {
+  text-align: center;
+}
+
 .info-box p {
   max-width: 200px;
-  text-align: center;
   padding-top: 10%;
 }
 
 .info-box img {
-  border-radius: 10%;
-  width: 200px;
-  height: 200px;
+  border-radius: 10px;
+  max-width: 200px;
+  max-height: 200px;
+  border: 5px solid blue;
 }
 
 #quotes {
