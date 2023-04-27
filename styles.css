@@ -14,7 +14,7 @@ body {
 
 header {
   background-color: #1F2937;
-  padding: 4% 12% 0;
+  padding: 1% 14% 0;
   display: flex;
   align-items: baseline;
   justify-content: space-between;
@@ -44,7 +44,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 7% 12%;
+  padding: 7% 14%;
   gap: 30px;
   color: #F9FAF8;
 }
@@ -100,7 +100,7 @@ a {
 
 #info {
   height: auto;
-  padding: 4% 12% 0 12%;
+  padding: 4% 14% 0;
 }
 
 #info h2 {
@@ -158,7 +158,7 @@ cite {
 
 #cta {
   height: auto;
-  padding: 6% 12% 7%;
+  padding: 6% 14% 7%;
 }
 
 .cta-box {
@@ -212,5 +212,5 @@ footer {
   background-color: #1F2937;
   color: #E5E7EB;
   text-align: center;
-  padding: 2% 12%;
+  padding: 2% 14%;
 }
