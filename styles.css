@@ -91,10 +91,10 @@ a {
 .hero-img {
   flex: 1;
   width: auto;
-  max-height: 200px;
+  max-height: 300px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .hero-img {display: none;}
 }
 
