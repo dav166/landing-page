@@ -1,4 +1,4 @@
-
+/* General styles */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,6 +11,7 @@ body {
   color: #333;
 }
 
+/* Header */
 header {
   background-color: #1F2937;
   padding: 1% 14% 0;
@@ -38,6 +39,7 @@ a {
   transition: all 0.3s ease;
 }
 
+/* Hero section */
 #hero {
   background-color: #1F2937;
   display: flex;
@@ -97,6 +99,7 @@ a {
   .hero-img {display: none;}
 }
 
+/* Info section */
 #info {
   height: auto;
   padding: 4% 14% 0;
@@ -134,6 +137,7 @@ a {
   border: 5px solid blue;
 }
 
+/* Quotes section */
 #quotes {
   height: auto;
   padding: 6% 16% 5% 16%;
@@ -155,6 +159,7 @@ cite {
   font-size: 22px;
 }
 
+/* CTA section */
 #cta {
   height: auto;
   padding: 6% 14% 7%;
@@ -207,6 +212,7 @@ cite {
   color: #333;
 }
 
+/* Footer */
 footer {
   background-color: #1F2937;
   color: #E5E7EB;
