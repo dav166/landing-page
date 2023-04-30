@@ -209,6 +209,7 @@ cite {
   cursor: pointer;
   font-weight: bold;
   transition: all 0.3s ease;
+  display: inline-block;
 }
 
 .cta-button:hover {
