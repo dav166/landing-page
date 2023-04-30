@@ -23,6 +23,9 @@ a {
 header {
   background-color: #1F2937;
   padding: 1% 14% 0;
+}
+
+nav {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
