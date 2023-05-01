@@ -155,12 +155,13 @@ ul {
 blockquote {
   font-size: 30px;
   font-style: italic;
+  position: relative;
 }
 
 cite {
-  margin-left: auto;
+  position: absolute;
+  right: 15px;
   font-weight: bold;
-  margin-right: 15px;
   font-size: 22px;
 }
 
