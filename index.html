@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,11 @@
     <title>Landing Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
+        <a class="header-logo" href="#">Dav</a>
         <nav>
-            <a class="header-logo" href="#" aria-label="Dav logo">Dav</a>
             <ul>
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#info">Info</a></li>
@@ -24,7 +26,7 @@
             <div class="hero-left">
                 <h1 class="hero-title">I am Hero Text</h1>
                 <p class="hero-text">This is sub-hero text.</p>
-                <a href="#" class="hero-button" role="button">Click Me!</a>
+                <a class="hero-button" href="#">Click Me!</a>
             </div>
             <img class="hero-img" src="./images/hero-theplace.jpg" alt="Hero Photo!">
         </section>
@@ -32,30 +34,30 @@
         <section id="info">
             <h2>I will put some info below!</h2>
             <div class="info-boxes">
-                <article class="info-box">
+                <div class="info-box">
                     <img src="./images/info-one.jpg" alt="Photo 1">
                     <p>These words go under photo 1!</p>
-                </article>
-                <article class="info-box">
+                </div>
+                <div class="info-box">
                     <img src="./images/info-two.jpg" alt="Photo 2">
                     <p>These words go under photo 2!</p>
-                </article>
-                <article class="info-box">
+                </div>
+                <div class="info-box">
                     <img src="./images/info-three.jpg" alt="Photo 3">
                     <p>These words go under photo 3!</p>
-                </article>
-                <article class="info-box">
+                </div>
+                <div class="info-box">
                     <img src="./images/info-four.jpg" alt="Photo 4">
                     <p>These words go under photo 4!</p>
-                </article>
+                </div>
             </div>
         </section>
 
         <section id="quotes">
-            <blockquote>
-                <p>"This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice."</p>
+            <div class="quote-container">
+                <blockquote>"This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice."</blockquote>
                 <cite>Dav, the developer</cite>
-            </blockquote>
+            </div>
         </section>
 
         <section id="cta">
@@ -64,7 +66,7 @@
                     <h2>Not done yet?</h2>
                     <p>To return to the top, click that button!</p>
                 </div>    
-                <a href="#" class="cta-button" role="button">Lets go!</a>
+                <a class="cta-button" href="#">Lets go!</a>
             </div>
         </section>
     </main>

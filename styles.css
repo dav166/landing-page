@@ -145,7 +145,7 @@ ul {
 /* Quotes section */
 #quotes {
   height: auto;
-  padding: 6% 16% 5% 16%;
+  padding: 6% 16%;
   background-color: #E5E7EB;
   display: flex;
   flex-direction: column;
