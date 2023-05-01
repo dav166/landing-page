@@ -136,8 +136,9 @@ ul {
 
 .info-box img {
   border-radius: 10px;
-  max-width: 200px;
-  max-height: 200px;
+  width: 175px;
+  height: 175px;
+  object-fit: cover;
   border: 5px solid blue;
 }
 
