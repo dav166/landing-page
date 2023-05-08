@@ -101,6 +101,7 @@ ul {
 
 @media screen and (max-width: 600px) {
   .hero-img {display: none;}
+  .hero-left {align-items: center; text-align: center;}
 }
 
 /* Info section */
