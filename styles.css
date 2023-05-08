@@ -131,7 +131,8 @@ ul {
 
 .info-box p {
   max-width: 200px;
-  padding-top: 10%;
+  padding-top: 4%;
+  padding-bottom: 10%;
 }
 
 .info-box img {
@@ -187,7 +188,7 @@ cite {
   display: flex;
   flex-direction: column;
 }
-.cta-box h2 {
+.cta-box h3 {
   font-size: 36px;
   font-weight: bold;
 }
