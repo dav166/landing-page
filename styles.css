@@ -20,9 +20,15 @@ a {
 }
 
 /* Header */
-header {
+.navbar {
   background-color: #1F2937;
-  padding: 1% 14% 0;
+  padding: 1% 14%;
+  /* Sticky nav */
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
 }
 
 nav {
