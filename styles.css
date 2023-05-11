@@ -26,6 +26,10 @@ a {
   transition: all 0.3s ease;
 }
 
+a:hover {
+  color: var(--light-text-color);
+}
+
 /* Header */
 .navbar {
   background-color: var(--primary-color);
