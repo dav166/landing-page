@@ -26,10 +26,6 @@ a {
   transition: all 0.3s ease;
 }
 
-a:hover {
-  color: var(--light-text-color);
-}
-
 /* Header */
 .navbar {
   background-color: var(--primary-color);
@@ -58,6 +54,10 @@ ul {
   gap: 20px;
 }
 
+a:hover {
+  color: var(--light-text-color);
+}
+
 /* Hero section */
 #hero {
   background-color: var(--primary-color);
@@ -67,6 +67,7 @@ ul {
   padding: 3rem 12%;
   gap: 30px;
   color: var(--light-text-color);
+  flex-wrap: wrap-reverse;
 }
 
 .hero-left {
@@ -117,6 +118,9 @@ ul {
 
 @media screen and (max-width: 600px) {
   .hero-img {display: none;}
+}
+
+@media screen and (max-width: 800px) {
   .hero-left {align-items: center; text-align: center;}
 }
 
