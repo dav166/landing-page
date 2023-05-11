@@ -58,7 +58,7 @@ ul {
   gap: 20px;
 }
 
-a:hover {
+li a:hover {
   color: var(--light-text-color);
 }
 
@@ -117,7 +117,7 @@ a:hover {
 .hero-img {
   flex: 1;
   width: auto;
-  max-height: 300px;
+  max-height: 280px;
 }
 
 @media screen and (max-width: 600px) {
@@ -166,6 +166,11 @@ a:hover {
   height: 175px;
   object-fit: cover;
   border: 5px solid blue;
+  transition: transform 0.3s ease;
+}
+
+.info-box:hover img {
+  transform: scale(1.01);
 }
 
 /* Quotes section */
