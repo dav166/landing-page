@@ -23,7 +23,6 @@ a {
 .navbar {
   background-color: #1F2937;
   padding: 1rem 12%;
-  /* Sticky nav */
   position: -webkit-sticky; /* For Safari */
   position: sticky;
   top: 0;
