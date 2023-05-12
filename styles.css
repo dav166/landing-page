@@ -29,7 +29,7 @@ a {
 /* Header */
 .navbar {
   background-color: var(--primary-color);
-  padding: 1rem 12%;
+  padding: 1rem 14%;
   position: -webkit-sticky; 
   position: sticky;
   top: 0;
@@ -67,8 +67,8 @@ li a:hover {
   background-color: var(--primary-color);
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 3rem 12%;
+  justify-content: center;
+  padding: 3rem 14%;
   gap: 30px;
   color: var(--light-text-color);
   flex-wrap: wrap-reverse;
@@ -76,7 +76,7 @@ li a:hover {
 
 .hero-left {
   display: flex;
-  flex: 1;
+  flex: 2;
   min-height: 100%;
   flex-direction: column;
   align-items: flex-start;
@@ -118,14 +118,14 @@ li a:hover {
 .hero-img {
   flex: 1;
   width: auto;
-  max-height: 280px;
+  max-height: 350px;
 }
 
 @media screen and (max-width: 600px) {
   .hero-img {display: none;}
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 695px) {
   .hero-left {align-items: center; text-align: center;}
 }
 
