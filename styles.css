@@ -187,6 +187,7 @@ blockquote {
   font-size: 30px;
   font-style: italic;
   position: relative;
+  padding: 1.5rem;
 }
 
 cite {
