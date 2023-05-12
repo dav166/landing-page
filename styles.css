@@ -142,7 +142,7 @@ li a:hover {
   text-align: center;
 }
 
-.info-boxes {
+.info-card-container {
   display: flex;
   flex-wrap: wrap;
   font-size: 18px;
@@ -150,17 +150,17 @@ li a:hover {
   padding-bottom: 10%;
 }
 
-.info-box {
+.info-card {
   text-align: center;
 }
 
-.info-box p {
+.info-card figcaption {
   max-width: 200px;
   padding-top: 1rem;
   padding-bottom: 2rem;
 }
 
-.info-box img {
+.info-card img {
   border-radius: 10px;
   width: 175px;
   height: 175px;
@@ -169,8 +169,8 @@ li a:hover {
   transition: transform 0.3s ease;
 }
 
-.info-box:hover img {
-  transform: scale(1.01);
+.info-card:hover img {
+  transform: scale(1.05);
 }
 
 /* Quotes section */
