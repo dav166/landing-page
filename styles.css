@@ -10,9 +10,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-html {
   scroll-behavior: smooth;
 }
 
@@ -25,7 +22,6 @@ body {
 a {
   text-decoration: none;
   color: white;
-  font-size: 18px;
   font-weight: normal;
   transition: all 0.3s ease;
 }
@@ -56,6 +52,10 @@ ul {
   display: flex;
   list-style: none;
   gap: 20px;
+}
+
+li a {
+  font-size: 18px;
 }
 
 li a:hover {
@@ -153,6 +153,7 @@ li a:hover {
 
 .info-card {
   text-align: center;
+  margin: 20px 0;
 }
 
 .info-card figcaption {
