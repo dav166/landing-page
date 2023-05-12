@@ -15,7 +15,7 @@
 
 body {
   font-family: 'Roboto', Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 1.6;
   color: var(--text-color);
 }
 
@@ -85,12 +85,12 @@ li a:hover {
 }
 
 .hero-title {
-  font-size: 48px;
+  font-size: 3em;
   font-weight: extra-bold;
 }
 
 .hero-text {
-  font-size: 18px;
+  font-size: 1.5em;
   color: var(--light-text-color);
 }
 
@@ -112,7 +112,7 @@ li a:hover {
 .hero-button:hover {
   background-color: #fff;
   color: var(--text-color);
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .hero-img {
@@ -251,7 +251,7 @@ cite {
 .cta-button:hover {
   background-color: #fff;
   color: var(--text-color);
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 /* Footer */
