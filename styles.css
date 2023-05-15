@@ -17,6 +17,7 @@ body {
   font-family: 'Roboto', Arial, sans-serif;
   line-height: 1.6;
   color: var(--text-color);
+  background-color: var(--primary-color);
 }
 
 a {
@@ -27,14 +28,15 @@ a {
 }
 
 /* Header */
-.navbar {
-  background-color: var(--primary-color);
+#navbar {
   padding: 1rem 14%;
   position: -webkit-sticky; 
   position: sticky;
   top: 0;
   z-index: 1000;
   width: 100%;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 nav {
@@ -131,6 +133,7 @@ li a:hover {
 
 /* Info section */
 #info {
+  background-color: white;
   height: auto;
   padding: 2rem 12% 0;
 }
@@ -203,6 +206,7 @@ cite {
 #cta {
   height: auto;
   padding: 3rem 12%;
+  background-color: white;
 }
 
 .cta-box {

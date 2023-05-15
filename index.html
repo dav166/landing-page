@@ -11,7 +11,7 @@
 
 <body>
     <!-- Header -->
-    <header class="navbar">
+    <header id="navbar">
         <nav>
             <a class="header-logo" href="#" aria-label="Dav logo">Dav</a>
             <ul>
@@ -81,5 +81,16 @@
     <footer>
         <p>Copyright &COPY; David Spaulding 2023</p>
     </footer>
+
+    <script>
+    window.addEventListener('scroll', function() {
+        const navbar = document.getElementById('navbar');
+        if (window.pageYOffset > 0) {
+            navbar.style.backgroundColor = 'rgba(31, 41, 55, 0.8)';
+        } else {
+            navbar.style.backgroundColor = 'var(--primary-color)';
+        }
+    });
+    </script>
 </body>
 </html>
