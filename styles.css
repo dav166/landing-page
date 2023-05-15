@@ -175,8 +175,9 @@ li a:hover {
   transition: transform 0.3s ease;
 }
 
-.info-card:hover img {
+.info-card img:hover {
   transform: scale(1.05);
+  border: 5px solid var(--secondary-color);
 }
 
 /* Quotes section */
