@@ -1,7 +1,7 @@
 :root {
   --primary-color: #1F2937;
   --secondary-color: #3882F6;
-  --text-color: #333;
+  --main-text-color: #f9f9f9;
   --light-text-color: #E5E7EB;
 }
 
@@ -16,7 +16,6 @@
 body {
   font-family: 'Roboto', Arial, sans-serif;
   line-height: 1.6;
-  color: var(--text-color);
   background-color: var(--primary-color);
 }
 
@@ -48,6 +47,7 @@ nav {
 
 .header-logo {
   font-size: 24px;
+  color: var(--main-text-color);
 }
 
 ul {
@@ -58,10 +58,11 @@ ul {
 
 li a {
   font-size: 18px;
+  color: var(--light-text-color);
 }
 
 li a:hover {
-  color: var(--light-text-color);
+  color: var(--main-text-color);
 }
 
 /* Hero section */
@@ -72,7 +73,6 @@ li a:hover {
   justify-content: center;
   padding: 3rem 14%;
   gap: 30px;
-  color: var(--light-text-color);
   flex-wrap: wrap-reverse;
 }
 
@@ -89,6 +89,7 @@ li a:hover {
 .hero-title {
   font-size: 3em;
   font-weight: extra-bold;
+  color: var(--main-text-color);
 }
 
 .hero-text {
@@ -112,8 +113,8 @@ li a:hover {
 }
 
 .hero-button:hover {
-  background-color: #fff;
-  color: var(--text-color);
+  background-color: var(--light-text-color);
+  color: var(--primary-color);
   transform: scale(1.05);
 }
 
@@ -211,8 +212,8 @@ cite {
 
 .cta-box {
   background-color: var(--secondary-color);
-  border: 2px solid rgb(74, 51, 204);
-  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
   padding: 20px;
   color: white;
   display: flex;
@@ -228,10 +229,12 @@ cite {
 .cta-box h3 {
   font-size: 36px;
   font-weight: bold;
+  color: var(--main-text-color);
 }
 
 .cta-box p {
   font-size: 24px;
+  color: var(--light-text-color);
 }
 
 .cta-box a {
@@ -240,11 +243,11 @@ cite {
 
 .cta-button {
   background-color: var(--secondary-color);
-  color: #fff;
+  color: var(--main-text-color);
   font-size: 18px;
   padding: 4px 20px;
   border-radius: 8px;
-  border: 2px solid white;
+  border: 2px solid var(--light-text-color);
   outline: none;
   cursor: pointer;
   font-weight: bold;
@@ -253,8 +256,9 @@ cite {
 }
 
 .cta-button:hover {
-  background-color: #fff;
-  color: var(--text-color);
+  background-color: var(--main-text-color);
+  color: var(--primary-color);
+  border: 2px solid var(--main-text-color);
   transform: scale(1.05);
 }
 
