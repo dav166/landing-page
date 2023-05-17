@@ -1,8 +1,8 @@
 :root {
   --primary-color: #1F2937;
-  --secondary-color: #3882F6;
+  --secondary-color: #3882f6;
   --main-text-color: #f9f9f9;
-  --light-text-color: #E5E7EB;
+  --light-text-color: #e5e7eb;
 }
 
 /* General styles */
@@ -270,4 +270,15 @@ footer {
   text-align: center;
   padding: 1rem 14%;
   margin-top: 1rem;
+}
+
+#fade-overlay {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30vh; 
+  background-image: linear-gradient(to top, rgba(31, 41, 55, .4), rgba(249, 249, 249, 0));
+  pointer-events: none; /* this ensures that the overlay does not prevent interaction with elements beneath it */
+  z-index: 1000; 
 }
