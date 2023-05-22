@@ -86,29 +86,5 @@
     </footer>
     <!-- Gradient fade-out effect -->
     <div id="fade-overlay"></div>
-
-    <!-- Translucent navbar and navbar shadow on scroll -->
-    <script>
-    window.addEventListener('scroll', function() {
-        const navbar = document.getElementById('navbar');
-        if (window.pageYOffset > 0) {
-            navbar.style.backgroundColor = 'rgba(31, 41, 55, 0.4)';
-        } else {
-            navbar.style.backgroundColor = 'var(--primary-color)';
-        }
-    });
-    window.addEventListener('scroll', function() {
-        const header = document.querySelector('#navbar');
-        const gradient = document.querySelector('#header-gradient');
-        if (window.pageYOffset > 0) {
-            header.classList.add('navbar-scrolled');
-            gradient.style.display = 'block';
-        } else {
-            header.classList.remove('navbar-scrolled');
-            gradient.style.display = 'none';
-        }
-    });
-    </script>
-    <!-- Above; remove/edit 2nd event listener -->
 </body>
 </html>

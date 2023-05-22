@@ -36,6 +36,7 @@ a {
   width: 100%;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(31, 41, 55, .4);
 }
 
 nav {
@@ -66,7 +67,8 @@ li a:hover {
 }
 
 #header-gradient {
-  position: fixed;
+  position: -webkit-sticky; 
+  position: sticky;
   top: 70px; /* this should be the height of your sticky header */
   left: 0;
   width: 100%;
